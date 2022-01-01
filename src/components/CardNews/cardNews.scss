@@ -1,0 +1,32 @@
+//Utilities
+@import "../../assets/utilities/namedVariables.scss";
+@import "../../assets/utilities/global.scss";
+
+.card-news {
+	width: 100%;
+	max-width: 350px;
+	background-color: $white;
+	text-align: left;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+
+	img {
+		width: 100%;
+		max-width: 350px;
+	}
+
+	&_content {
+		padding: 16px;
+		padding-bottom: 40px;
+
+		span {
+			color: #666;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		p {
+			margin: 0;
+		}
+	}
+}
