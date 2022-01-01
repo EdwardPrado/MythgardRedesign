@@ -1,0 +1,31 @@
+//Utilities
+@import "../../assets/utilities/namedVariables.scss";
+@import "../../assets/utilities/global.scss";
+
+.newsletter {
+	@include maxSize;
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacingLarge;
+	margin: 0 auto;
+	padding-top: $spacingMedium;
+	padding-bottom: $spacingMedium;
+
+	&_text {
+		width: 100%;
+		max-width: 500px;
+		text-align: left;
+
+		h3 {
+			margin-top: 0;
+		}
+
+		p {
+			font-size: 16px;
+		}
+	}
+
+	form {
+		text-align: left;
+	}
+}

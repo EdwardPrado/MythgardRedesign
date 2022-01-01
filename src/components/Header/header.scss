@@ -1,0 +1,50 @@
+//Utilities
+@import "../../assets/utilities/namedVariables.scss";
+@import "../../assets/utilities/global.scss";
+
+.myth-nav {
+	font-weight: bold;
+	text-transform: uppercase;
+
+	overflow: visible !important;
+	position: relative;
+
+	display: block;
+
+	.container {
+		@include maxSize;
+
+		height: 100%;
+		margin: 0 auto;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	&-company {
+		background-color: $black;
+
+		.navbar-nav .nav-link {
+			color: $white-secondary;
+
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+
+	&-game {
+		background-color: $white;
+		padding-top: 0;
+		padding-bottom: 0;
+		border-bottom: 1px solid $white-secondary;
+
+		a {
+			padding: 0;
+		}
+	}
+
+	&_logo {
+		max-height: 56px;
+		max-width: 100px;
+	}
+}

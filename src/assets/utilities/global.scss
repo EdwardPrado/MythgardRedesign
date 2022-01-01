@@ -1,0 +1,61 @@
+//Utilities
+@import "./namedVariables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+
+body {
+	font-family: "Hind", sans-serif;
+	font-size: 16px;
+}
+
+.btn-cta {
+	display: inline-block;
+	min-width: 4rem;
+	padding: 8px $spacingSmall;
+	outline: none;
+	background-color: $primary;
+	color: $white;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+
+	&:hover {
+		color: $white;
+	}
+}
+
+//Mixins
+@mixin maxSize {
+	max-width: $maxWidth;
+	padding: $spacingMedium;
+}
