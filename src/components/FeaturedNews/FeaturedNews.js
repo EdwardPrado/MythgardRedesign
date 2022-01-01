@@ -24,6 +24,9 @@ const FeaturedNews = () => {
 					summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at lectus sit amet nisl feugiat luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur."
 				/>
 			</div>
+			<a href="#" class="btn-cta">
+				View All News
+			</a>
 		</section>
 	);
 };
