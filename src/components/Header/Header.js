@@ -15,7 +15,7 @@ const Header = () => {
 			<Navbar bg="dark" expand="lg" className="myth-nav myth-nav-company">
 				<Container>
 					<Navbar.Brand href="https://monumental.io/">
-						<img src={MonumentalIcon} className="myth-nav_logo"></img>
+						<img src={MonumentalIcon} className="myth-nav_logo" alt="Monumental Studio Icon."></img>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
