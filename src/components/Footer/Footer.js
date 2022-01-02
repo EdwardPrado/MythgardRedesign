@@ -4,6 +4,8 @@ import "./footer.scss";
 import MonumentalIcon from "../../assets/branding/Icon_Monumental.svg";
 
 const Footer = () => {
+	const currentYear = new Date().getFullYear();
+
 	return (
 		<footer>
 			<div class="footer_container">
@@ -49,7 +51,7 @@ const Footer = () => {
 						<a href="#">Privacy policy</a>
 						<a href="#">Terms of Service</a>
 					</div>
-					© 2021 - Rhino Games, Inc.
+					© 2018 - {currentYear} Rhino Games Inc.
 				</section>
 			</div>
 		</footer>
