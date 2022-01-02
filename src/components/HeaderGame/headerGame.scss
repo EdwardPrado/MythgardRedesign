@@ -1,0 +1,17 @@
+//Utilities
+@import "../../assets/utilities/header.scss";
+
+.myth-nav-game-wrapper {
+	background-color: $white;
+	border-bottom: 1px solid $white-secondary;
+}
+
+.myth-nav-game {
+	background-color: $white !important;
+
+	padding-top: 0;
+	padding-bottom: 0;
+	button {
+		color: $black;
+	}
+}
