@@ -1,19 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
 
-import Header from "./components/Header/Header";
-import FeaturedNews from "./components/FeaturedNews/FeaturedNews";
-import NewsLetter from "./components/NewsLetter/NewsLetter";
-import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import News from "./pages/News/News";
 
 function App() {
 	return (
-		<div className="App">
-			<Header />
-			<FeaturedNews />
-			<NewsLetter />
-			<Footer />
-		</div>
+		<Router>
+			<Routes>
+				<Route exact path="/" element={<Home />} />
+				<Route exact path="/news" element={<News />} />
+			</Routes>
+		</Router>
 	);
 }
 

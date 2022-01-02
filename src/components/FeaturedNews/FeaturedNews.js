@@ -2,6 +2,7 @@ import React from "react";
 import "./featuredNews.scss";
 
 import CardNews from "../CardNews/CardNews";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const FeaturedNews = () => {
 	return (
@@ -24,9 +25,14 @@ const FeaturedNews = () => {
 					summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at lectus sit amet nisl feugiat luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur."
 				/>
 			</div>
-			<a href="#" class="btn-cta">
+			<Link
+				to={{
+					pathname: "/news",
+				}}
+				className="btn-cta"
+			>
 				View All News
-			</a>
+			</Link>
 		</section>
 	);
 };
