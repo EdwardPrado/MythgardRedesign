@@ -47,7 +47,7 @@ const HeaderGame = () => {
 	};
 
 	return (
-		<AppBar position="sticky" class="myth-nav-game-wrapper">
+		<AppBar position="sticky" className="myth-nav-game-wrapper">
 			<Container className="myth-nav myth-nav-game">
 				<Toolbar disableGutters>
 					<Typography variant="h6" noWrap component="div" sx={{ mr: 2, display: { xs: "none", md: "flex" } }}>
