@@ -25,3 +25,27 @@
 		}
 	}
 }
+
+.epic {
+	&-container {
+		display: flex;
+		height: 550px;
+		background-color: #000;
+		background-image: url("./Home_Assets/epic_banner.jpg"); //fallback
+		background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+			url("./Home_Assets/epic_banner.jpg");
+		background-size: cover;
+	}
+
+	&_content {
+		@include maxSize;
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		color: $white;
+		&-text {
+			max-width: 300px;
+		}
+	}
+}

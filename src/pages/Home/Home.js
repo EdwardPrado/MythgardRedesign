@@ -8,6 +8,8 @@ import HighlightCard01 from "./Home_Assets/highlight_card-bg-01.jpg";
 import HighlightCard02 from "./Home_Assets/highlight_card-bg-02.jpg";
 import HighlightCard03 from "./Home_Assets/highlight_card-bg-03.png";
 
+import ButtonCTA from "../../components/ButtonCTA/ButtonCTA";
+
 import "./home.scss";
 
 const Home = () => {
@@ -50,6 +52,18 @@ const Home = () => {
 							iaculis pretium nulla sed dapibus. Integer bibendum malesuada nulla, condimentum semper dui consectetur
 							id.
 						</p>
+					</div>
+				</div>
+			</section>
+			<section class="epic-container">
+				<div class="epic_content">
+					<div class="epic_content-text">
+						<h4>Experience the Epic</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non aliquam elit, et vehicula tellus.
+							Integer id nisl lacus.
+						</p>
+						<ButtonCTA text="Play Now" />
 					</div>
 				</div>
 			</section>
