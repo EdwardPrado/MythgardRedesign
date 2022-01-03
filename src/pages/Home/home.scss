@@ -2,6 +2,50 @@
 @import "../../assets/utilities/namedVariables.scss";
 @import "../../assets/utilities/global.scss";
 
+.hero {
+	&-container {
+		height: 90vh;
+		display: flex;
+		align-items: center;
+		background-image: url("./Home_Assets/hero_banner.png");
+		background-position: right;
+		background-size: cover;
+	}
+
+	&-content-wrapper {
+		@include maxSize;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	&-content {
+		max-width: 500px;
+		font-size: 24px;
+		color: $white;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.badge-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: $spacingMedium;
+
+	a {
+		display: block;
+		width: 120px;
+	}
+
+	img {
+		max-width: 120px;
+	}
+}
+
 .highlight {
 	&-container {
 		@include maxSize;
@@ -19,8 +63,7 @@
 		max-width: 300px;
 
 		img {
-			width: 300px;
-			height: 300px;
+			width: 100%;
 			object-fit: cover;
 		}
 	}
@@ -35,6 +78,7 @@
 		background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
 			url("./Home_Assets/epic_banner.jpg");
 		background-size: cover;
+		background-position: center;
 	}
 
 	&_content {
@@ -43,9 +87,28 @@
 		margin: 0 auto;
 		display: flex;
 		align-items: center;
-		color: $white;
 		&-text {
+			max-width: 400px;
+			font-size: 18px;
+			color: $white;
+		}
+	}
+}
+
+//Media Queries
+@media (max-width: $break_md) {
+	.hero-content {
+		img {
 			max-width: 300px;
 		}
+	}
+}
+
+@media (max-width: $break_xlg) {
+	.hero-container {
+		background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+			url("./Home_Assets/hero_banner.png");
+		background-size: cover;
+		background-position: right;
 	}
 }
