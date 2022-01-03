@@ -7,12 +7,17 @@ import Footer from "../../components/Footer/Footer";
 import BannerMythgard from "../../assets/branding/banner-mythgard.png";
 import BadgeSteam from "./Home_Assets/badges/badge-steam.png";
 import BadgeApple from "./Home_Assets/badges/badge-apple.svg";
+import CardNorden from "./Home_Assets/Mimir_Reborn.png";
+import CardDreni from "./Home_Assets/Vedma_Helicarrier.png";
+import CardAztlan from "./Home_Assets/A56_Ahtatl.png";
+
 import BadgeAndroid from "./Home_Assets/badges/badge-android.svg";
 import HighlightCard01 from "./Home_Assets/highlight_card-bg-01.jpg";
 import HighlightCard02 from "./Home_Assets/highlight_card-bg-02.jpg";
 import HighlightCard03 from "./Home_Assets/highlight_card-bg-03.png";
 
 import ButtonCTA from "../../components/ButtonCTA/ButtonCTA";
+import Card from "../../components/Card/Card";
 
 import "./home.scss";
 
@@ -38,6 +43,21 @@ const Home = () => {
 								<img src={BadgeAndroid} alt="Available for download on the App Store indicator."></img>
 							</a>
 						</div>
+					</div>
+				</div>
+			</section>
+			<section class="banner-container expansion-container">
+				<div class="banner_content">
+					<div class="banner_content-text">
+						<h6>NOW LIVE</h6>
+						<h4>The Winter War</h4>
+						<p>Do you side with the Alliance and control the board or fight from the shadows with the Rebellion?</p>
+						<ButtonCTA text="Go to the Expansion Page" link="/expansion" />
+					</div>
+					<div class="card-container">
+						<Card url={CardNorden} />
+						<Card url={CardAztlan} />
+						<Card url={CardDreni} />
 					</div>
 				</div>
 			</section>
@@ -79,15 +99,60 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section class="epic-container">
-				<div class="epic_content">
-					<div class="epic_content-text">
+			<section class="banner-container epic-container">
+				<div class="banner_content">
+					<div class="banner_content-text">
 						<h4>Experience the Epic</h4>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non aliquam elit, et vehicula tellus.
 							Integer id nisl lacus.
 						</p>
 						<ButtonCTA text="Play Now" />
+					</div>
+				</div>
+			</section>
+			<section class="banner-container faction-container">
+				<div class="banner_content faction_content">
+					<div class="banner_content-text faction_content-text">
+						<h4>Master and Combine 6 Factions</h4>
+						<div class="faction-card-container">
+							<div class="faction-card faction-card_norden">
+								<div class="faction-card_content">
+									<h4>Norden</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="faction-card faction-card_parsa">
+								<div class="faction-card_content">
+									<h4>Parsa</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="faction-card faction-card_aztlan">
+								<div class="faction-card_content">
+									<h4>Aztlan</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="faction-card faction-card_dreni">
+								<div class="faction-card_content">
+									<h4>Dreni</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="faction-card faction-card_harmony">
+								<div class="faction-card_content">
+									<h4>Harmony</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="faction-card faction-card_oberos">
+								<div class="faction-card_content">
+									<h4>Oberos</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>

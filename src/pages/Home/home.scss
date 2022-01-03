@@ -46,6 +46,46 @@
 	}
 }
 
+.banner {
+	&-container {
+		display: flex;
+		min-height: 550px;
+		background-color: #000;
+	}
+
+	&_content {
+		@include maxSize;
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		&-text {
+			max-width: 400px;
+			font-size: 18px;
+			color: $white;
+		}
+	}
+}
+
+.expansion {
+	&-container {
+		background-image: url("../../assets/images/backgrounds/textured-background_large.jpg"); //fallback
+		background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+			url("../../assets/images/backgrounds/textured-background_large.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: $spacingSmall;
+}
+
 .highlight {
 	&-container {
 		@include maxSize;
@@ -71,26 +111,109 @@
 
 .epic {
 	&-container {
-		display: flex;
-		height: 550px;
-		background-color: #000;
 		background-image: url("./Home_Assets/epic_banner.jpg"); //fallback
 		background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
 			url("./Home_Assets/epic_banner.jpg");
 		background-size: cover;
 		background-position: center;
 	}
+}
+
+.faction {
+	&-container {
+		background-image: url("../../assets/images/backgrounds/textured-background_large.jpg"); //fallback
+		background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+			url("../../assets/images/backgrounds/textured-background_large.jpg");
+		background-size: cover;
+		background-position: center;
+	}
 
 	&_content {
-		@include maxSize;
+		align-items: baseline;
+	}
+
+	&_content-text {
 		width: 100%;
-		margin: 0 auto;
+		max-width: 100%;
 		display: flex;
-		align-items: center;
-		&-text {
-			max-width: 400px;
-			font-size: 18px;
-			color: $white;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0 auto;
+
+		& > h4 {
+			text-align: center;
+		}
+	}
+
+	&-card {
+		@include boxShadow;
+
+		position: relative;
+		width: 275px;
+		height: 400px;
+		background-color: $black;
+		text-align: left;
+
+		&-container {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(275px, 1fr));
+			row-gap: 2rem;
+			justify-items: center;
+			width: 100%;
+			margin-top: $spacingSmall;
+		}
+
+		&_content {
+			position: absolute;
+			bottom: 0;
+			padding: 0 $spacingSmall;
+
+			p {
+				margin-top: 0;
+			}
+		}
+
+		&_norden {
+			background-image: url("../../assets/images/backgrounds/faction-card-bg_norden.png"); //fallback
+			background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+				url("../../assets/images/backgrounds/faction-card-bg_norden.png");
+			background-size: contain;
+		}
+
+		&_oberos {
+			background-image: url("../../assets/images/backgrounds/faction-card-bg_oberos.png"); //fallback
+			background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+				url("../../assets/images/backgrounds/faction-card-bg_oberos.png");
+			background-size: contain;
+		}
+
+		&_aztlan {
+			background-image: url("../../assets/images/backgrounds/faction-card-bg_aztlan.png"); //fallback
+			background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+				url("../../assets/images/backgrounds/faction-card-bg_aztlan.png");
+			background-size: contain;
+		}
+
+		&_dreni {
+			background-image: url("../../assets/images/backgrounds/faction-card-bg_dreni.png"); //fallback
+			background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+				url("../../assets/images/backgrounds/faction-card-bg_dreni.png");
+			background-size: contain;
+		}
+
+		&_parsa {
+			background-image: url("../../assets/images/backgrounds/faction-card-bg_parsa.png"); //fallback
+			background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+				url("../../assets/images/backgrounds/faction-card-bg_parsa.png");
+			background-size: contain;
+		}
+
+		&_harmony {
+			background-image: url("../../assets/images/backgrounds/faction-card-bg_harmony.png"); //fallback
+			background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+				url("../../assets/images/backgrounds/faction-card-bg_harmony.png");
+			background-size: contain;
 		}
 	}
 }
@@ -101,6 +224,25 @@
 		img {
 			max-width: 300px;
 		}
+	}
+
+	.banner_content {
+		justify-content: center;
+		&-text {
+			text-align: center;
+		}
+
+		.card-container {
+			justify-content: center;
+		}
+	}
+}
+
+@media (max-width: $break_lg) {
+	.faction-card-container {
+		grid-template-columns: repeat(auto-fill, 275px);
+		column-gap: 2rem;
+		justify-content: center;
 	}
 }
 
