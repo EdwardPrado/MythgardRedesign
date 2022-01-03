@@ -1,3 +1,27 @@
 //Utilities
 @import "../../assets/utilities/namedVariables.scss";
 @import "../../assets/utilities/global.scss";
+
+.highlight {
+	&-container {
+		@include maxSize;
+		margin: 0 auto;
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		gap: 2rem;
+		text-align: center;
+	}
+
+	&-card {
+		max-width: 300px;
+
+		img {
+			width: 300px;
+			height: 300px;
+			object-fit: cover;
+		}
+	}
+}
