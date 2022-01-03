@@ -37,7 +37,7 @@ const NewsLetter = () => {
 			<form>
 				<CssTextField
 					id="standard-basic"
-					label="Standard"
+					label="Email"
 					variant="standard"
 					inputProps={{ style: { borderColor: "red" } }}
 				/>

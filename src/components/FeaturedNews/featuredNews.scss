@@ -32,3 +32,14 @@ form {
 		margin-bottom: $spacingExtraSmall;
 	}
 }
+
+//Media Queries
+@media (max-width: $break_md) {
+	.featured-news {
+		justify-content: center;
+
+		&_cards {
+			justify-content: center;
+		}
+	}
+}
