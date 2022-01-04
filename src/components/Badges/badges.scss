@@ -1,0 +1,21 @@
+//Utilities
+@import "../../assets/utilities/namedVariables.scss";
+@import "../../assets/utilities/global.scss";
+
+.badge-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: $spacingMedium;
+
+	a {
+		display: block;
+		width: 120px;
+	}
+
+	img {
+		width: auto;
+		height: 40px;
+	}
+}

@@ -1,0 +1,32 @@
+//Utilities
+@import "../../assets/utilities/header.scss";
+
+.myth-nav-game-wrapper {
+	background-color: $white !important;
+	border-bottom: 1px solid $white-secondary;
+}
+
+.myth-nav-game {
+	background-color: $white !important;
+
+	padding-top: 0;
+	padding-bottom: 0;
+	button {
+		color: $black;
+	}
+}
+
+.play-now {
+	@include boxShadow;
+	width: 100%;
+	max-width: 400px;
+	background-color: "#000";
+	background-image: url("../../assets/images/backgrounds/textured-background_large.jpg");
+	background-size: cover;
+	color: $white;
+	text-align: center;
+
+	.badge-container {
+		justify-content: center;
+	}
+}

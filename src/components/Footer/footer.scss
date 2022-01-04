@@ -46,6 +46,8 @@ footer {
 }
 
 .legal {
+	text-align: center;
+
 	&_links {
 		display: flex;
 		flex-wrap: wrap;
@@ -91,4 +93,15 @@ footer {
 	max-height: 74px;
 	max-width: 150px;
 	display: inline-block;
+}
+
+//Media Queries
+@media (max-width: $break_md) {
+	.logo {
+		margin: 0 auto;
+	}
+
+	.link-list {
+		text-align: center;
+	}
 }

@@ -1,0 +1,32 @@
+//Utilities
+@import "../../assets/utilities/header.scss";
+
+.myth-nav-company-wrapper {
+	background-color: $black;
+}
+
+.myth {
+	&-dropdown {
+		button {
+			color: red !important;
+		}
+	}
+
+	&-nav-company {
+		.navbar-nav .nav-link {
+			color: $white-secondary;
+
+			&:hover {
+				color: $white;
+			}
+		}
+
+		.MuiButton-endIcon {
+			margin-left: 0;
+		}
+
+		button {
+			color: $white;
+		}
+	}
+}

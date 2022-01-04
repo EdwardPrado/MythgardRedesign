@@ -1,7 +1,28 @@
 import React from "react";
 import "./newsLetter.scss";
 
-import Form from "react-bootstrap/Form";
+import { styled } from "@mui/material/styles";
+import TextField from "@mui/material/TextField";
+
+const CssTextField = styled(TextField)({
+	"& label.Mui-focused": {
+		color: "#000",
+	},
+	"& .MuiInput-underline:after": {
+		borderBottomColor: "#000",
+	},
+	"& .MuiOutlinedInput-root": {
+		"& fieldset": {
+			borderColor: "#000",
+		},
+		"&:hover fieldset": {
+			borderColor: "#000",
+		},
+		"&.Mui-focused fieldset": {
+			borderColor: "#000",
+		},
+	},
+});
 
 const NewsLetter = () => {
 	return (
@@ -13,15 +34,18 @@ const NewsLetter = () => {
 					updates, promo codes, and more.
 				</p>
 			</div>
-			<Form>
-				<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-					<Form.Label>Email Address</Form.Label>
-					<Form.Control type="email" placeholder="name@example.com" />
-				</Form.Group>
+			<form>
+				<CssTextField
+					id="standard-basic"
+					label="Email"
+					variant="standard"
+					inputProps={{ style: { borderColor: "red" } }}
+				/>
+				<br />
 				<a href="#" class="btn-cta">
 					Sign Up
 				</a>
-			</Form>
+			</form>
 		</section>
 	);
 };

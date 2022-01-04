@@ -1,0 +1,11 @@
+//Utilities
+@import "../../assets/utilities/namedVariables.scss";
+@import "../../assets/utilities/global.scss";
+
+.card {
+	display: inline-block;
+	height: calc(466px / 1.5);
+	width: calc(333px / 1.5);
+	margin: 15px;
+	background-size: cover;
+}
