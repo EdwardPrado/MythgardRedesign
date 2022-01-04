@@ -29,23 +29,6 @@
 	}
 }
 
-.badge-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 1rem;
-	margin-top: $spacingMedium;
-
-	a {
-		display: block;
-		width: 120px;
-	}
-
-	img {
-		max-width: 120px;
-	}
-}
-
 .banner {
 	&-container {
 		display: flex;
@@ -157,10 +140,9 @@
 
 		&-container {
 			display: grid;
-			grid-template-columns: repeat(3, minmax(275px, 1fr));
+			grid-template-columns: repeat(3, 275px);
+			column-gap: 2rem;
 			row-gap: 2rem;
-			justify-items: center;
-			width: 100%;
 			margin-top: $spacingSmall;
 		}
 
@@ -219,6 +201,16 @@
 }
 
 //Media Queries
+@media (max-width: $break_sm) {
+	.hero-content {
+		text-align: center;
+
+		.badge-container {
+			justify-content: center;
+		}
+	}
+}
+
 @media (max-width: $break_md) {
 	.hero-content {
 		img {
@@ -240,8 +232,10 @@
 
 @media (max-width: $break_lg) {
 	.faction-card-container {
+		width: 100%;
 		grid-template-columns: repeat(auto-fill, 275px);
 		column-gap: 2rem;
+		row-gap: 2rem;
 		justify-content: center;
 	}
 }

@@ -1,17 +1,15 @@
 import HeaderCompany from "../../components/HeaderCompany/HeaderCompany";
 import HeaderGame from "../../components/HeaderGame/HeaderGame";
+import Badges from "../../components/Badges/Badges";
 import FeaturedNews from "../../components/FeaturedNews/FeaturedNews";
 import NewsLetter from "../../components/NewsLetter/NewsLetter";
 import Footer from "../../components/Footer/Footer";
 
 import BannerMythgard from "../../assets/branding/banner-mythgard.png";
-import BadgeSteam from "./Home_Assets/badges/badge-steam.png";
-import BadgeApple from "./Home_Assets/badges/badge-apple.svg";
 import CardNorden from "./Home_Assets/Mimir_Reborn.png";
 import CardDreni from "./Home_Assets/Vedma_Helicarrier.png";
 import CardAztlan from "./Home_Assets/A56_Ahtatl.png";
 
-import BadgeAndroid from "./Home_Assets/badges/badge-android.svg";
 import HighlightCard01 from "./Home_Assets/highlight_card-bg-01.jpg";
 import HighlightCard02 from "./Home_Assets/highlight_card-bg-02.jpg";
 import HighlightCard03 from "./Home_Assets/highlight_card-bg-03.png";
@@ -32,17 +30,7 @@ const Home = () => {
 						<img src={BannerMythgard} alt="Mythgard Logo."></img>
 						<p>Welcome to Mythgard, a fantasy cyberpunk card game where heroes, gods, and mythical beasts meet.</p>
 						<ButtonCTA text="Watch Trailer" link="https://www.youtube.com/watch?v=OpRfmRIWPc0" />
-						<div class="badge-container">
-							<a href="https://store.steampowered.com/app/839910/Mythgard/?utm_source=www.mythgardgame.com">
-								<img src={BadgeSteam} alt="Available on the Steam Store indicator."></img>
-							</a>
-							<a href="https://play.google.com/store/apps/details?id=com.rhinogamesinc.mythgard">
-								<img src={BadgeApple} alt="Available on the Google Play Store indicator."></img>
-							</a>
-							<a href="https://apps.apple.com/us/app/mythgard/id1404458505">
-								<img src={BadgeAndroid} alt="Available for download on the App Store indicator."></img>
-							</a>
-						</div>
+						<Badges />
 					</div>
 				</div>
 			</section>
