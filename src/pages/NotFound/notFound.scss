@@ -2,14 +2,18 @@
 @import "../../assets/utilities/namedVariables.scss";
 @import "../../assets/utilities/global.scss";
 
-.not-found-wrapper {
-	@include maxSize;
+.not-found {
+	&-page {
+		footer {
+			position: absolute;
+			bottom: 0;
+		}
+	}
 
-	margin: 0 auto;
-	text-align: center;
-}
+	&-wrapper {
+		@include maxSize;
 
-footer {
-	position: absolute;
-	bottom: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
 }
