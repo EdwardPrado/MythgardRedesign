@@ -6,7 +6,7 @@ import "./notFound.scss";
 
 const NotFound = () => {
 	return (
-		<div>
+		<div class="not-found-page">
 			<HeaderCompany />
 			<HeaderGame />
 			<div class="not-found-wrapper">
