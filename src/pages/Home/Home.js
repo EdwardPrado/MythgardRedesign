@@ -1,3 +1,5 @@
+import React from "react";
+
 import HeaderCompany from "../../components/HeaderCompany/HeaderCompany";
 import HeaderGame from "../../components/HeaderGame/HeaderGame";
 import Badges from "../../components/Badges/Badges";
@@ -16,6 +18,7 @@ import HighlightCard03 from "./Home_Assets/highlight_card-bg-03.png";
 
 import ButtonCTA from "../../components/ButtonCTA/ButtonCTA";
 import Card from "../../components/Card/Card";
+import { Link } from "react-router-dom";
 
 import "./home.scss";
 
@@ -145,6 +148,17 @@ const Home = () => {
 				</div>
 			</section>
 			<FeaturedNews />
+			<div class="featured-news_btn-container">
+				<Link
+					to={{
+						pathname: "/news",
+					}}
+					className="btn-cta"
+					style={{ textAlign: "center" }}
+				>
+					View All News
+				</Link>
+			</div>
 			<NewsLetter />
 			<Footer />
 		</div>

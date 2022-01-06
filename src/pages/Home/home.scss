@@ -200,6 +200,16 @@
 	}
 }
 
+.featured-news_btn-container {
+	@include maxSize;
+
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 //Media Queries
 @media (max-width: $break_sm) {
 	.hero-content {
