@@ -14,7 +14,7 @@ import HTMLReactParser from "html-react-parser";
 const News = () => {
 	const [newsArticle, setNewsArticle] = useState([]);
 	const [articleContent, setArticleContent] = useState();
-	const [background, setBackground] = useState("");
+	const [background, setBackground] = useState({});
 
 	//Runs only on initial page load to prevent call spam
 	useEffect(() => {
@@ -24,7 +24,10 @@ const News = () => {
 		axios.get(`/news/posts/?articleId=${articleId}`).then((response) => {
 			setNewsArticle(response.data[0]);
 			setArticleContent(parseArticle(response.data[0].article));
-			setBackground("/images/news/banner" + response.data[0].background);
+			setBackground({
+				banner: `/images/news/banner${response.data[0].background}`,
+				thumbnail: `/images/news/thumbnail${response.data[0].background}`,
+			});
 		});
 	}, []);
 
@@ -56,10 +59,13 @@ const News = () => {
 					) : (
 						<h4>{newsArticle.name}</h4>
 					)}
-					{background === "" ? (
+					{background.banner === undefined || background.thumbnail === undefined ? (
 						<Skeleton animation="wave" height={200} width="100%" />
 					) : (
-						<img src={background} alt="" loading="lazy"></img>
+						<picture>
+							<source srcset={background.banner} media="(min-width: 426px)"></source>
+							<img src={background.thumbnail} alt="" loading="lazy"></img>
+						</picture>
 					)}
 					{articleContent === undefined ? (
 						<div>
