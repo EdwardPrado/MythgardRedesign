@@ -16,6 +16,7 @@
 	}
 }
 
+.support,
 .play-now {
 	@include boxShadow;
 	width: 100%;
@@ -25,7 +26,19 @@
 	background-size: cover;
 	color: $white;
 	text-align: center;
+}
 
+.support {
+	a {
+		color: $white;
+
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+.play-now {
 	.badge-container {
 		justify-content: center;
 	}

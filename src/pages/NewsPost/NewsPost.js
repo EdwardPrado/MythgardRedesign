@@ -18,6 +18,9 @@ const News = () => {
 
 	//Runs only on initial page load to prevent call spam
 	useEffect(() => {
+		//Fixes issue where user is partially scrolled down the page when they open it
+		window.scrollTo(0, 0);
+
 		let params = new URL(document.location).searchParams;
 		let articleId = params.get("articleId");
 

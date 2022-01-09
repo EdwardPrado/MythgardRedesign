@@ -211,6 +211,12 @@
 }
 
 //Media Queries
+@media (max-width: 375px) {
+	.banner_content {
+		padding: 40px 0;
+	}
+}
+
 @media (max-width: $break_sm) {
 	.hero-content {
 		text-align: center;

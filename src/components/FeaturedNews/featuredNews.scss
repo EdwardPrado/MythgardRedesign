@@ -43,6 +43,10 @@ form {
 	.featured-news {
 		justify-content: center;
 
+		h3 {
+			text-align: center;
+		}
+
 		&_cards {
 			justify-content: center;
 		}
