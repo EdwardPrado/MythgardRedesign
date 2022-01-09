@@ -50,7 +50,12 @@
 @media (max-width: $break_lg) {
 	.card-modal {
 		min-width: auto;
+		width: 100%;
 		max-width: 400px;
+
+		&_content {
+			min-width: auto;
+		}
 	}
 }
 
@@ -62,6 +67,31 @@
 
 @media (max-width: 500px) {
 	.card-modal {
+		max-width: 300px;
+	}
+}
+
+@media (max-width: 375px) {
+	.card-modal {
 		max-width: 200px;
+	}
+}
+
+@media (max-width: 320px) {
+	.card-modal {
+		max-width: 150px;
+
+		img {
+			margin: 15px auto;
+			transform: scale(1.15);
+		}
+
+		&_content {
+			padding: 0;
+
+			h3 {
+				font-size: 24px;
+			}
+		}
 	}
 }
