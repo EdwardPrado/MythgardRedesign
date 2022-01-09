@@ -1,0 +1,62 @@
+//Utilities
+@import "../../assets/utilities/namedVariables.scss";
+@import "../../assets/utilities/global.scss";
+
+.expansion {
+	&-card-container {
+		@include maxSize;
+
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		gap: 1rem;
+		justify-content: center;
+		margin: 0 auto;
+
+		.card {
+			margin-bottom: 0;
+			overflow: hidden;
+			object-fit: cover;
+		}
+	}
+
+	&_center {
+		max-width: 300px;
+		margin: $spacingSmall auto;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.expansion-hero {
+	&-container {
+		height: 90vh;
+		display: flex;
+		align-items: center;
+		background-image: url("./Expansion_Assets/expansion_hero-banner.png");
+		background-position: center;
+		background-size: cover;
+	}
+
+	&-content-wrapper {
+		@include maxSize;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	&-content {
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: 24px;
+		text-align: center;
+		color: $white;
+
+		h2 {
+			margin-bottom: $spacingMedium;
+		}
+
+		p {
+			margin-top: $spacingExtraSmall;
+		}
+	}
+}
