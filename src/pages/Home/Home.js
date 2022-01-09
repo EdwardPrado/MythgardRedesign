@@ -43,12 +43,36 @@ const Home = () => {
 						<h6>NOW LIVE</h6>
 						<h4>The Winter War</h4>
 						<p>Do you side with the Alliance and control the board or fight from the shadows with the Rebellion?</p>
-						<ButtonCTA text="Go to the Expansion Page" link="/expansion" />
+						<ButtonCTA text="See the Card Gallery" link="/expansion" />
 					</div>
 					<div class="card-container">
-						<Card url={CardNorden} />
-						<Card url={CardAztlan} />
-						<Card url={CardDreni} />
+						<Card
+							url={CardNorden}
+							name="Mimir Reborn"
+							type="Unit"
+							rarity="Mythic"
+							faction="Norden"
+							flavorText=""
+							collectible={true}
+						/>
+						<Card
+							url={CardAztlan}
+							name="A56 Ahtatl"
+							type="Unit"
+							rarity="Mythic"
+							faction="Aztlan"
+							flavorText="We'll be ready sir; it's going to take more than a few malcontents to disrupt operations."
+							collectible={true}
+						/>
+						<Card
+							url={CardDreni}
+							name="Ved'ma Helicarrier"
+							type="Unit"
+							rarity="Rare"
+							faction="Dreni"
+							flavorText=""
+							collectible={true}
+						/>
 					</div>
 				</div>
 			</section>
