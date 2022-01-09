@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 
 import HeaderCompany from "../../components/HeaderCompany/HeaderCompany";
 import HeaderGame from "../../components/HeaderGame/HeaderGame";
@@ -20,9 +20,46 @@ import ButtonCTA from "../../components/ButtonCTA/ButtonCTA";
 import Card from "../../components/Card/Card";
 import { Link } from "react-router-dom";
 
+import Box from "@mui/material/Box";
+import { styled } from "@mui/system";
+import ModalUnstyled from "@mui/base/ModalUnstyled";
+
 import "./home.scss";
 
+const StyledModal = styled(ModalUnstyled)`
+	position: fixed;
+	z-index: 1300;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+`;
+
+const Backdrop = styled("div")`
+	z-index: -1;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-tap-highlight-color: transparent;
+`;
+
+const style = {
+	p: 2,
+	px: 4,
+	pb: 3,
+};
+
 const Home = () => {
+	const [openPlayNow, setOpenPlayNow] = React.useState(false);
+	const handlePlayNowOpen = () => setOpenPlayNow(true);
+	const handlePlayNowClose = () => setOpenPlayNow(false);
+
 	return (
 		<div>
 			<HeaderCompany />
@@ -122,7 +159,9 @@ const Home = () => {
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non aliquam elit, et vehicula tellus.
 							Integer id nisl lacus.
 						</p>
-						<ButtonCTA text="Play Now" />
+						<span onClick={handlePlayNowOpen}>
+							<ButtonCTA text="Play Now" />
+						</span>
 					</div>
 				</div>
 			</section>
@@ -185,6 +224,19 @@ const Home = () => {
 			</div>
 			<NewsLetter />
 			<Footer />
+			<StyledModal
+				aria-labelledby="play-now_modal-title"
+				aria-describedby="play-now_modal-description"
+				open={openPlayNow}
+				onClose={handlePlayNowClose}
+				BackdropComponent={Backdrop}
+			>
+				<Box sx={style} className="play-now">
+					<h4>Play Now</h4>
+					<p>Download Mythgard on your preferred platform</p>
+					<Badges />
+				</Box>
+			</StyledModal>
 		</div>
 	);
 };
