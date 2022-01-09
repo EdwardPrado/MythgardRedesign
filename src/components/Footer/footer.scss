@@ -85,6 +85,10 @@ footer {
 		& > a {
 			color: $white;
 			text-decoration: none;
+
+			&:hover {
+				color: $primary;
+			}
 		}
 	}
 }
@@ -103,5 +107,15 @@ footer {
 
 	.link-list {
 		text-align: center;
+	}
+}
+
+.discord-logo {
+	width: 32px;
+	height: 32px;
+	fill: $white;
+
+	&:hover {
+		fill: $primary;
 	}
 }
