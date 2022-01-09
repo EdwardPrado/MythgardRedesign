@@ -56,10 +56,6 @@ const gamePages = [
 		name: "News",
 		link: "/news",
 	},
-	{
-		name: "Support",
-		link: "",
-	},
 ];
 
 const HeaderGame = () => {
@@ -81,6 +77,10 @@ const HeaderGame = () => {
 	const [openPlayNow, setOpenPlayNow] = React.useState(false);
 	const handlePlayNowOpen = () => setOpenPlayNow(true);
 	const handlePlayNowClose = () => setOpenPlayNow(false);
+
+	const [openSupport, setOpenSupport] = React.useState(false);
+	const handleSupportOpen = () => setOpenSupport(true);
+	const handleSupportClose = () => setOpenSupport(false);
 
 	return (
 		<AppBar position="sticky" className="myth-nav-game-wrapper">
@@ -131,13 +131,20 @@ const HeaderGame = () => {
 									</MenuLink>
 								</MenuItem>
 							))}
-							<Button
+							<MenuItem
+								key="Support"
+								sx={{ color: "#000", fontWeight: "bold", fontFamily: "Open Sans", fontSize: "14px" }}
+								onClick={handleSupportOpen}
+							>
+								Support
+							</MenuItem>
+							<MenuItem
 								key="PlayNow"
 								sx={{ color: "#000", fontWeight: "bold", fontFamily: "Open Sans", fontSize: "14px" }}
 								onClick={handlePlayNowOpen}
 							>
 								Play Now
-							</Button>
+							</MenuItem>
 						</Menu>
 					</Box>
 					<Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -156,6 +163,13 @@ const HeaderGame = () => {
 							</MenuItem>
 						))}
 						<Button
+							key="Support"
+							sx={{ color: "#000", fontWeight: "bold", fontFamily: "Open Sans", fontSize: "14px" }}
+							onClick={handleSupportOpen}
+						>
+							Support
+						</Button>
+						<Button
 							key="PlayNow"
 							sx={{ color: "#000", fontWeight: "bold", fontFamily: "Open Sans", fontSize: "14px" }}
 							onClick={handlePlayNowOpen}
@@ -165,6 +179,21 @@ const HeaderGame = () => {
 					</Box>
 				</Toolbar>
 			</Container>
+			<StyledModal
+				aria-labelledby="play-now_modal-title"
+				aria-describedby="play-now_modal-description"
+				open={openSupport}
+				onClose={handleSupportClose}
+				BackdropComponent={Backdrop}
+			>
+				<Box sx={style} className="support">
+					<h4>Support</h4>
+					<p>
+						Please send inquiries to <a href="mailto:support@mythgardgame.com">support@mythgardgame.com</a> or join the{" "}
+						<a href="https://discord.gg/mythgard">Mythgard Discord server</a>.
+					</p>
+				</Box>
+			</StyledModal>
 			<StyledModal
 				aria-labelledby="play-now_modal-title"
 				aria-describedby="play-now_modal-description"
