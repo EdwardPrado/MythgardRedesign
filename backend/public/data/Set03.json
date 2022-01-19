@@ -1,0 +1,3714 @@
+[
+	{
+		"cardCode": "03ND001",
+		"name": "Brittleblast",
+		"keywords": ["Fragile"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND001.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "\"When Skaði exhales, a warrior is forced to adapt, but the obstinate man simply shatters.\" -Einherjar proverb",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Ice"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND002",
+		"name": "Glory Seeker",
+		"keywords": ["Slayer", "Focused"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND002.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 2,
+		"flavorText": "Once living fall silent, the dead can find a terrible comfort in standing alone.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Undead"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND002",
+		"name": "Lookie",
+		"keywords": ["Breach"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND003.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 1,
+		"flavorText": "What's the good word, Lou; you get a peek at what we're up against?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel", "Elf"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND004",
+		"name": "Arctic Pyre",
+		"keywords": ["Awaken", "Fragile", "Forge"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND004.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Undead"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND005",
+		"name": "Rebel Roughrider",
+		"keywords": ["Overrun", "Sundown"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND005.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 2,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "Those rebels hiding out in the chop shop gave me some wicked ideas for souping up my ride.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": [],
+		"type": "",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND006",
+		"name": "Winter's Bite",
+		"keywords": ["Persist", "Fragile"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND006.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Allow me to demonstrate why pushing this far into Einherjar territory wasn't such a hot idea...",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Ice"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND007",
+		"name": "Zero Day Trigger",
+		"keywords": ["Awaken", "Sacrifice", "Sunrise", "Sacrifice"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND007.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": [],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND008",
+		"name": "Black Box Operator",
+		"keywords": ["Breach", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND008.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 3,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 2,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "\"Monitoring outputs is taking too long,\" I'll show them; I've got yer system access right here!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND009",
+		"name": "Gremlin Heist",
+		"keywords": ["Ephemeral"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND009.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Rebel"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND010",
+		"name": "Knoll of Conquest",
+		"keywords": ["Awaken", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND010.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 2,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "A fitting battlefield then, if indeed it was the bacl of a great fallen Jotun.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Undead"],
+		"type": "Echantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND011",
+		"name": "Niflheim's Claim",
+		"keywords": ["Fragile", "Supressed", "Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND011.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Ice"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND012",
+		"name": "Elemental Fortification",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND012.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "No idea what to give a stone person as a thank-you gift, but that's right neighborly.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Earth"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND013",
+		"name": "Hydrophonic Hank",
+		"keywords": ["Breach", "Banish", "Forge", "Swift", "Teleport"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND013.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 2,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 2,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 5,
+		"flavorText": "Audio-neural-link = clean; start(data dive)",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND014",
+		"name": "Shaterstone Palace",
+		"keywords": ["Fragile"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND014.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 2,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Even concrete is made up of tiny elemental chunks.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Elemental"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND015",
+		"name": "Valr Smith",
+		"keywords": ["Awaken", "Forge", "Armor"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND015.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 3,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "The irony of finding my life's calling after dying isn't lost on me.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Undead", "Valkyrie"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND016",
+		"name": "Mímir Reborn",
+		"keywords": ["Lurker", "Utility Action", "Banish", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND016.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 3,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 2,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 6,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Undead Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND017",
+		"name": "Primeval Son",
+		"keywords": ["Overrun", "Sundown", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND017.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 6,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 2,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 5,
+		"flavorText": "The essence of Ymir exists in the bones of everything.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Canine", "Elemental"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03ND018",
+		"name": "Berserkgangr",
+		"keywords": ["Frenzy"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03ND018.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Norden",
+		"attack": 3,
+		"cost": 6,
+		"costBreakdown": {
+			"norden": 2,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 9,
+		"flavorText": "They fear our anger because the strength of our convictions is infectious.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Undead"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ019",
+		"name": "Eagle Scout",
+		"keywords": ["Awaken", "Stealthed", "Forge", "Slayer"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ019.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 1,
+		"flavorText": "They're using some sort of cloaking technique, but we've got eyes on the target.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Soldier"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ020",
+		"name": "Oversight Surge",
+		"keywords": ["Persist"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ020.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Given the speed and success of the athletic trials, I'm afraid research funding for this method of enhancement is being cut.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Persist"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ021",
+		"name": "Thunderbird Egg",
+		"keywords": ["Immobile", "Sunrise", "Transforms"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ021.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 0,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "Which came first, the incubator or 220 volts of electricity?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Ovum"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ022",
+		"name": "Enlistment Bonus",
+		"keywords": ["Persist"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ020.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Magpyre's private military recruitment drive is in full swing, promising to turn Mesoamerican youth into Aztlan might.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Order"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ023",
+		"name": "Grit Instructor",
+		"keywords": ["Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ023.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 1,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "From now on telpochalli child, your name is Try or Die.  \nTry or Die, drop and give me twenty!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Soldier"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ024",
+		"name": "Icon of the Feathered One",
+		"keywords": ["Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ024.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": [],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ025",
+		"name": "River of Winged Snake",
+		"keywords": ["Blight"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ025.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "The runoff from the binary xiik's facilities was proven to be perfectly save, and even arguably beneficial for certain emergent downriver species.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Water"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ026",
+		"name": "Ayotl Vanguard",
+		"keywords": ["Awaken", "Sunrise", "Forge", "Armor"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ026.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 3,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "Agitated?  Escalation isn't the way; try Serentix today!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Mutant", "Soldier"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ027",
+		"name": "Holcan Assembly Line",
+		"keywords": ["Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ027.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Construct"],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ028",
+		"name": "Yara from Arawaka",
+		"keywords": ["Agile", "Breach"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ028.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 2,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "Oho!  Another fascinating discovery...",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Legendary", "Explorer"],
+		"type": "",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ029",
+		"name": "Cradle of Life",
+		"keywords": ["Awaken", "Sunrise", "Overrun"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ029.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Utopian"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ030",
+		"name": "Doublespeak",
+		"keywords": ["Mirror", "Banish"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ030.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Cerebral"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ031",
+		"name": "Shuar Stalker",
+		"keywords": ["Lurker", "Swift", "Alpha Strike"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ030.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 4,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "I think something's following us... was that a hiss or a growl?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Feline", "Serpent"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ032",
+		"name": "A34 Jaguar",
+		"keywords": ["Armor", "Overrun", "Forge"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ030.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 4,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 5,
+		"flavorText": "Soldiers respond better when protected by animal-form automatons than human shaped units.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Construct"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ033",
+		"name": "Harpy-One",
+		"keywords": ["Transform", "Slayer", "Sunrise", "Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ033.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 5,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 6,
+		"flavorText": "Target has been neutralized with extreme prejudice.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Soldier"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ034",
+		"name": "Oh Fortuitous Find!",
+		"keywords": ["Banish", "Sundown"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ034.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "True happiness is solid fieldwork",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Explorer"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ035",
+		"name": "A56 Ahtatl",
+		"keywords": ["Armor", "Defender", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ035.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 4,
+		"cost": 6,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 3,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 6,
+		"flavorText": "We'll be ready sir; it's going to take more than a few malcontents to disrupt operations.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Construct"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ036",
+		"name": "Lady in the Water",
+		"keywords": ["Sunrise", "Threaten"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ036.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 7,
+		"cost": 7,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 2,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 8,
+		"flavorText": "The legend of Yacumama is real... I'm guessing para-sailing is cancelled.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Serpent"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB037",
+		"name": "Carny Rioter",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB037.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 1,
+		"flavorText": "This was a peaceful protest until they broke out the tear gas.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel", "Carny"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB038",
+		"name": "Spark of the Uprising",
+		"keywords": ["Breach"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB038.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB039",
+		"name": "Sunken Acolyte",
+		"keywords": ["Breach", "Transforms"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB039.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "You were born from water, and life is prepared for a grand return to the seas",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Cultist"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB040",
+		"name": "Algosian Mask",
+		"keywords": ["Stacking", "Sunrise", "Banish", "Sacrifice"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB040.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "We mistook our blessings for curses because our thinking was limited; Before Her, we didn't think of pain as a resource.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": [],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB041",
+		"name": "Brinebound Believer",
+		"keywords": ["Sunrise", "Transforms", "Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB041.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 2,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 2,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Cultist"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB042",
+		"name": "Drowned Observatory",
+		"keywords": ["Demise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB042.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "A glimpse of His prison changes us all in different ways, but to the same ends.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Cultist"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB043",
+		"name": "There is No Safe Word",
+		"keywords": ["Sunrise", "Sacrifice"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB043.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "If you have to ask, darling, I'm afraid you're already in over your head.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Death"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB044",
+		"name": "Venal Equinox",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB044.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 3,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 2,
+		"flavorText": "See that you gallop toward a future that is free of tyranny.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel", "Centaur"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB045",
+		"name": "Driven Lyric",
+		"keywords": ["Persist", "Swift"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB045.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "As if you hate dancing and the divine \n Rebel rebel, torn asunder \n Hot damn, but it makes you wonder",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Sonic"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB046",
+		"name": "Threnody Muse",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB046.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "I am haunted, driven by memories of compositions that failed to inspire the kind of change that's now needed.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Muse"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB047",
+		"name": "Caryatid of the Vault",
+		"keywords": ["Slayer", "Awaken", "Threatens"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB047.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 4,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "Working defense contracts for a decade, and you'd think I'd have seen just about every layer of security there is.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Construct"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB048",
+		"name": "Saltwater Empousa",
+		"keywords": ["Transform", "Utility Action", "Standard Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB048.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 3,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 5,
+		"flavorText": "The tendrils of his inspiration can reach anyone; in absence, he is everywhere.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Cultist"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB049",
+		"name": "Sir Shaggy the Brave",
+		"keywords": ["Awaken", "Rush"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB049.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 4,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "No one needed to train him; if anything he's got US trained to charge in there after him!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB050",
+		"name": "Vault of the Oberos",
+		"keywords": ["Awaken", "Ephemeral"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB050.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Clients enjoy peace of mind, whether their assets are solid, liquid, or virtual.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Merchant"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB051",
+		"name": "Vestai Virago",
+		"keywords": ["Lurker", "Deadly"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB051.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 2,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 7,
+		"flavorText": "If you're going to treat yourself, you might as well treat yourself right.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Serpent"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB052",
+		"name": "Whispers of the Profane",
+		"keywords": ["Sacrifice"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB052.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": null,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "For all that claim to hear Him in the tides, those who truly listen get to become part of His vast design.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Cerebral"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB053",
+		"name": "The Bastard of Autolycus",
+		"keywords": ["Swift", "Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB053.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 4,
+		"cost": 6,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 3,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 6,
+		"flavorText": "My dear, for you I would steal the earth itself just to sweep you off your feet.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Agent"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB054",
+		"name": "Scylla of Dire Strait",
+		"keywords": ["Regen", "Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB054.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 8,
+		"cost": 7,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 2,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 7,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Demon", "Spirit"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR055",
+		"name": "Æther Engineer",
+		"keywords": ["Summon", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR055.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 1,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "These bonds are messed up; someone needs to teach those werewolves to weld.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Witch"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR056",
+		"name": "Dreni Propogandist",
+		"keywords": ["Warded", "Sundown", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR056.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 1,
+		"flavorText": "To control a populace, one must control the message.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Witch"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR057",
+		"name": "Sett Borsuk",
+		"keywords": ["Awaken", "Fragile"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR057.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 1,
+		"flavorText": "You really think I give a Rat's arse?  After everything that was taken from us, it's hard to care.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Spirit"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR058",
+		"name": "Volkov Induction",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR058.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "It will be a day of pain... but also excitement and joy; after today, you are a member of the Great Pack!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Witch"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR059",
+		"name": "Bol'shoy Constructor",
+		"keywords": ["Sunrise", "Utility Action", "Sacrifice"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR059.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": [],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR060",
+		"name": "Dread Kurgan",
+		"keywords": ["Threaten", "Rush", "Overrun", "Suppressed"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR060.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Spirit"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR061",
+		"name": "Merry Prankster",
+		"keywords": ["Agile", "Teleport", "Utility Action", "Ephemeral"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR061.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 2,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 2,
+		"flavorText": "Oooh what'cha doin' there?  What's that button do?  Can I press it?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Spirit"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR062",
+		"name": "Vodnik Junker",
+		"keywords": ["Lurker", "Sundown", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR062.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 2,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "You haul it in, we break it down; no questions asked!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Spirit"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR063",
+		"name": "War Documentarian",
+		"keywords": ["Lurker", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR063.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 1,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "Multiple radical groups are thought to be behind this terrorist action in progress...",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Witch"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR064",
+		"name": "Grigori Protocol",
+		"keywords": ["Immortal", "Sunrise", "Sacrifice"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR064.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "I award you the ternal star for your distinction in service to the Dreni cause.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Ritual"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR065",
+		"name": "Strip Mine",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR065.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Earth"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR066",
+		"name": "Ved'ma Steelshaper",
+		"keywords": ["Lurker", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR066.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 1,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "These cowards like hiding almost as much as I enjoy practice.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Witch"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR067",
+		"name": "Veela Spy",
+		"keywords": ["Lurker", "Sundown", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR067.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 3,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 2,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "These days, loose lips might not be enough to sink ships...",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Spirit", "Agent"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR068",
+		"name": "White Tower Warden",
+		"keywords": ["Lurker", "Warded"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR068.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 5,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 3,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "Quickly now.  I assure you, the covens have no sway over this grove.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Spirit"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR069",
+		"name": "Terminal Calculus",
+		"keywords": ["Banish"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR069.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": null,
+		"cost": 6,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 3,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Well, if you hate my love of math so much why don't you just cease to exist?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Witch"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR070",
+		"name": "Vortex Hovertank",
+		"keywords": ["Standard Action", "Armor"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR070.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 7,
+		"cost": 7,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 2,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 6,
+		"flavorText": "...And speaking of distractions, their heavy reinforcements have arrived.  Fantastic.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Construct"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR071",
+		"name": "Ved'ma Helicarrier",
+		"keywords": ["Teleport", "Awaken", "Standard Action", "Forge"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR071.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 3,
+		"cost": 8,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 3,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 8,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Construct"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR072",
+		"name": "Typhoon-Class Hydropolis",
+		"keywords": ["Blast", "Forge"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR072.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": 3,
+		"cost": 9,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 4,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": 10,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Construct"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR073",
+		"name": "Khyber Outcast",
+		"keywords": ["Sundown"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR073.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 1,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": 2,
+		"flavorText": "When merely sharing the air with Parsa became painful, that was when we realized that Bab-Rmal was no longer our home.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR074",
+		"name": "Shimmer on the Sand",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR074.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Desert"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR075",
+		"name": "Sovereign Blessing",
+		"keywords": ["Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR075.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "By extended provision of the Merkabic sublaw; may mortal blood be of seraphic need, transient energies must be lent freely if returned.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Angel"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR076",
+		"name": "Ilanot of He That Is",
+		"keywords": ["Utility Action", "Fragile", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR076.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "You'd be paranoid too if your antiques could be reality binding contracts.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Thearch"],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR077",
+		"name": "Spire of Sand and Glass",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR077.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "When the sun rises over them you'll see why they call it 'the beacon city.'",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Desert"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR078",
+		"name": "Xerxian Agitator",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR078.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Our cause grows with every meeting, and I find that we're more alike than anyone would have guessed.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR079",
+		"name": "More than Protect",
+		"keywords": ["Persist", "Slayer"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR079.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "If the Empress won't listen, we will go where our voices will be heard!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR080",
+		"name": "Si'lat Elite",
+		"keywords": ["Awaken", "Fragile", "Sunrise", "Regen"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR080.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 3,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "Did someone straight up collapse at the rave last night?  Must have been intense!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Jinn"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR081",
+		"name": "Xerxian Insurrectionist",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR081.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 3,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": 2,
+		"flavorText": "Despite the risk, these missings are about creating bonds between our disparate forces; the sabotage is merely a bonus.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR082",
+		"name": "Khyber Qomandan",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR082.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 4,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "Believe it or not, 'the rebel godmothers' used to be Parsa's toughest field commanders.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR083",
+		"name": "Parsa's Cornucopia",
+		"keywords": ["Sunrise", "Ephemeral"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR083.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 3,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Your labor, and your loyalty; a small price to pay for the infinite bounty we are offering.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Zealot"],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR084",
+		"name": "Sasnctum Guard",
+		"keywords": ["Warded", "Utility Action", "Defender", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR084.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 4,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": 5,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Soldier"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR085",
+		"name": "Shackle",
+		"keywords": ["Immobile"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR085.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Excellent work, Ariel.  Inform our Ved'ma contact that we've got their wayward countryman.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Thearch"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR086",
+		"name": "Shaitan Pariah",
+		"keywords": ["Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR086.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 3,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": 5,
+		"flavorText": "Beings of magic aren't just interested in the properties of matter, they're interested in matters of property.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Jinn"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR087",
+		"name": "Arcanovore",
+		"keywords": ["Warded", "Awaken", "Banish"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR087.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 6,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": 3,
+		"flavorText": "Between horn poaching and most magic becoming cast instead of raw, I really feel for them.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Unicorn"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR088",
+		"name": "He Who Creates",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR088.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 3,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": 6,
+		"flavorText": "If a lithe body of ceramic, silicon, and steel is such a wonder to behold, then imagine the joy of shaping it!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Thearch"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR089",
+		"name": "Kaveh, Khyber Warlord",
+		"keywords": ["Utility Action", "Transform"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR089.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 5,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Legendary", "Rebel"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03PR090",
+		"name": "Phantasmagorgonian",
+		"keywords": ["Defender", "Awaken", "Stealth"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03PR090.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Parsa",
+		"attack": 5,
+		"cost": 6,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": 7,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Elemental"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY091",
+		"name": "Inked Brawler",
+		"keywords": ["Demise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY091.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 2,
+		"flavorText": "Respect our existence or respect resistance.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel", "Outlaw"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY092",
+		"name": "Overtime Affliction",
+		"keywords": ["Banish"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY092.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": null,
+		"flavorText": "I can't remember my family's faces... where do I live, did I already pass away?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Death"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY093",
+		"name": "Trusty Hireling",
+		"keywords": ["Awaken", "Demise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY093.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 2,
+		"cost": 1,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 1,
+		"flavorText": "Oh no, thank YOU sir, always a pleasure to bear the loot of a living legend!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Avatar"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY094",
+		"name": "Family Ties",
+		"keywords": ["Persist"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY094.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": null,
+		"flavorText": "Those corporate dogs will pay for what has transpired here.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Outlaw"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY095",
+		"name": "Sister Spitfire",
+		"keywords": ["Awaken", "Agile", "Sundown", "Forge", "Demise", "Threaten"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY095.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 3,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 1,
+		"flavorText": "You gotta be a bit of a hothead to make it, out here.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Commojn",
+		"subtypeRef": ["Rebel", "Outlaw"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY096",
+		"name": "Slantstone",
+		"keywords": ["Stacking", "Sundown"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY096.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": [],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY097",
+		"name": "White Metal Ox",
+		"keywords": ["Overrun", "Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY097.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 2,
+		"cost": 2,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 3,
+		"flavorText": "If this is some sort of publicity stunt, those energy drink corporations have officially gone too far!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Avatar"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY098",
+		"name": "Brother Moonblade",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY098.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 3,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": 4,
+		"flavorText": "If the rebels have managed to reach even us, then you shouldn't question their grasp.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Rebel", "Avatar"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY099",
+		"name": "House of a Thousand Grudges",
+		"keywords": ["Awaken", "Breach", "Banish"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY099.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": null,
+		"flavorText": "We figured the witches and their dogs couldn't find us inside... but something else did.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Spirit"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY100",
+		"name": "Koga Impostor",
+		"keywords": ["Stealth", "Demise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY100.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 2,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 1,
+		"flavorText": "If I can just get this intel out of Harmony territory, it will all be worth it...",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Outlaw", "Ninja"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY101",
+		"name": "Mirror Pack",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY101.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": null,
+		"flavorText": "It's not illegal per se, but the dupes won't always shift between realms cleanly.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Avatar"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY102",
+		"name": "Arcadion Raceway",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY102.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": null,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Avatar"],
+		"type": "Enchantment",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY103",
+		"name": "Comb Trader",
+		"keywords": ["Forge"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY103.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 2,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 5,
+		"flavorText": "We wouldn't want your follicles to become horribly tangled now, would we?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Spirit"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY104",
+		"name": "Take to the Streets",
+		"keywords": ["Persist", "Blast"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY104.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": null,
+		"flavorText": "We've brought warring gangs together before; sometimes to get people on the same page you've just got to knock some sense into everyone.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Outlaw"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY105",
+		"name": "Dragon Slayer",
+		"keywords": ["Awaken"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY105.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 4,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": 5,
+		"flavorText": "Don't hate the player OR the game; hate on all the DKP I just ganked from ya!",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Common",
+		"subtypeRef": ["Avatar"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY106",
+		"name": "Forbidden Floors",
+		"keywords": ["Banish"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY106.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": null,
+		"flavorText": "Headed down?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Spirit"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY107",
+		"name": "Vendomomo",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY107.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": null,
+		"flavorText": "Aw, it's adorable!  Go on, I think it wants you to buy something.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Avatar"],
+		"type": "Artifact",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY108",
+		"name": "Head of the Family",
+		"keywords": ["Lurker", "Utility Action"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY108.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 3,
+		"cost": 6,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": 8,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Outlaw"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY109",
+		"name": "Spirit of Dispossession",
+		"keywords": ["Lurker", "Agile", "Sundown", "Breach", "Banish"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY109.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 1,
+		"cost": 6,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 2
+		},
+		"health": 4,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Spirit"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY110",
+		"name": "Anthem of the Rebellion",
+		"keywords": ["Persist", "Sundown"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY110.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": null,
+		"cost": 0,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": null,
+		"flavorText": "It gets under your skin, right?  Like everyone in power wants us to shut up and stop thinking about it?",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Rebel"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03HY111",
+		"name": "Imugi of Good Fortune",
+		"keywords": ["Awaken", "Demise", "Sunrise"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03HY111.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Harmony",
+		"attack": 9,
+		"cost": 7,
+		"costBreakdown": {
+			"norden": 1,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 9,
+		"flavorText": "We're all beholden to the ebb and flow of prsoperity, from bacteria to celestial beings.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Elemental", "Dragon"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR112",
+		"name": "Triforge Alliance",
+		"keywords": ["Persist", "Sundown"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR112.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Dreni",
+		"attack": null,
+		"cost": 0,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 1,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Structure.  Progress.  Vision.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Rare",
+		"subtypeRef": ["Order"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ113",
+		"name": "Corporate Confab",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ113.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 1,
+			"parsa": 0,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "Well, you consulted the right people on this.  We can grow exponentially, where Parsan manufacturing only scales linearly with golem size.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Order"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03AZ114",
+		"name": "Golem Hunter Prototype",
+		"keywords": ["Percing", "Blight"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03AZ114.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": 3,
+		"cost": 3,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 1,
+			"dreni": 0,
+			"parsa": 1,
+			"harmony": 0
+		},
+		"health": 4,
+		"flavorText": "",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Construct"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03OB115",
+		"name": "Cyberminotar",
+		"keywords": ["Threaten"],
+		"assets": [
+			{
+				"gameAbsolutePath": "03OB115.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Oberos",
+		"attack": 5,
+		"cost": 5,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 1,
+			"aztlan": 0,
+			"dreni": 0,
+			"parsa": 0,
+			"harmony": 1
+		},
+		"health": 6,
+		"flavorText": "Lest we forget that great gear really makes the monster, not just the man.",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Uncommon",
+		"subtypeRef": ["Minotaur", "Avatar"],
+		"type": "Unit",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	},
+	{
+		"cardCode": "03DR116",
+		"name": "Angelischism",
+		"keywords": [],
+		"assets": [
+			{
+				"gameAbsolutePath": "03DR116.png",
+				"fullAbsolutePath": ""
+			}
+		],
+		"faction": "Aztlan",
+		"attack": null,
+		"cost": 4,
+		"costBreakdown": {
+			"norden": 0,
+			"oberos": 0,
+			"aztlan": 0,
+			"dreni": 2,
+			"parsa": 2,
+			"harmony": 0
+		},
+		"health": null,
+		"flavorText": "\"She cannot see through your burdens, and will never truly know you; the only way to break your contracts is to give us the boy and become the champion everyone needs.\"",
+		"associatedCards": [],
+		"associatedCardRefs": [],
+		"rarity": "Mythic",
+		"subtypeRef": ["Cerebral"],
+		"type": "Spell",
+		"collectible": true,
+		"set": "The Winter War",
+		"setRef": "Set03"
+	}
+]
