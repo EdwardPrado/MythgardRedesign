@@ -23,7 +23,7 @@ const Expansion = () => {
 		if (filteredFaction === "All") {
 			axios({
 				method: "GET",
-				url: "/cards",
+				url: "/api/cards",
 				params: { faction: filteredFaction, pageNumber: queryPage },
 			}).then((response) => {
 				getCards(response);
@@ -31,7 +31,7 @@ const Expansion = () => {
 		} else {
 			axios({
 				method: "GET",
-				url: "/cards",
+				url: "/api/cards",
 				params: { faction: filteredFaction },
 			}).then((response) => {
 				getCards(response);

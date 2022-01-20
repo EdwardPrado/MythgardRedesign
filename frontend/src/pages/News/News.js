@@ -18,7 +18,7 @@ const News = () => {
 		//Fixes issue where user is partially scrolled down the page when they open it
 		window.scrollTo(0, 0);
 
-		axios.get("/news/posts/").then((response) => {
+		axios.get("/api/news/posts/").then((response) => {
 			getNewsCards(response);
 		});
 	}, []);

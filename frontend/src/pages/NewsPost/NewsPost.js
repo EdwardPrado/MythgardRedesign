@@ -24,7 +24,7 @@ const News = () => {
 		let params = new URL(document.location).searchParams;
 		let articleId = params.get("articleId");
 
-		axios.get(`/news/posts/?articleId=${articleId}`).then((response) => {
+		axios.get(`/api/news/posts/?articleId=${articleId}`).then((response) => {
 			setNewsArticle(response.data[0]);
 			setArticleContent(parseArticle(response.data[0].article));
 			setBackground({
