@@ -11,7 +11,7 @@ const FeaturedNews = () => {
 
 	//Runs only on initial page load to prevent call spam
 	useEffect(() => {
-		axios.get("/api/news/posts/?isFeatured=true").then((response) => {
+		axios.get("/news/posts/?isFeatured=true").then((response) => {
 			getFeaturedCards(response);
 		});
 	}, []);
