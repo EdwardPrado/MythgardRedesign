@@ -27,10 +27,10 @@ const cardsRouter = require("./routes/cards");
 const setsRouter = require("./routes/sets");
 const newsRouter = require("./routes/news");
 
-app.use("/", indexRouter);
-app.use("/cards", cardsRouter);
-app.use("/sets", setsRouter);
-app.use("/news", newsRouter);
+app.use("/api", indexRouter);
+app.use("/api/cards", cardsRouter);
+app.use("/api/sets", setsRouter);
+app.use("/api/news", newsRouter);
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
@@ -56,6 +56,16 @@ app.use(function (err, req, res, next) {
 	// render the error page
 	res.status(err.status || 500);
 	res.render("error");
+});
+
+app.use(express.static(path.join(__dirname, "./frontend/build")));
+
+app.get("*", function (_, res) {
+	res.sendFile(path.join(__dirname, "../frontend/build/index.html"), function (err) {
+		if (err) {
+			res.status(500).send(err);
+		}
+	});
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}...`));
