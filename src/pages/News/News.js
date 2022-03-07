@@ -32,6 +32,7 @@ const News = () => {
 					date={newsArr.data[i].date}
 					title={newsArr.data[i].name}
 					summary={newsArr.data[i].summary}
+					articleId={newsArr.data[i].articleId}
 					thumbnail={newsArr.data[i].thumbnail}
 				/>
 			);
