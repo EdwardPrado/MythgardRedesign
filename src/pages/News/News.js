@@ -18,7 +18,7 @@ const News = () => {
 		//Fixes issue where user is partially scrolled down the page when they open it
 		window.scrollTo(0, 0);
 
-		axios.get("https://mythgard-api.herokuapp.com/api/news/posts/").then((response) => {
+		axios.get("https://mythgard-api.herokuapp.com/news/posts/").then((response) => {
 			getNewsCards(response);
 		});
 	}, []);
@@ -32,8 +32,7 @@ const News = () => {
 					date={newsArr.data[i].date}
 					title={newsArr.data[i].name}
 					summary={newsArr.data[i].summary}
-					articleId={newsArr.data[i].articleId}
-					background={"/images/news/thumbnail" + newsArr.data[i].background}
+					thumbnail={newsArr.data[i].thumbnail}
 				/>
 			);
 		}

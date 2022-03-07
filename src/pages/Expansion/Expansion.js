@@ -23,7 +23,7 @@ const Expansion = () => {
 		if (filteredFaction === "All") {
 			axios({
 				method: "GET",
-				url: "https://mythgard-api.herokuapp.com/api/cards",
+				url: "https://mythgard-api.herokuapp.com/cards",
 				params: { faction: filteredFaction, pageNumber: queryPage },
 			}).then((response) => {
 				getCards(response);
@@ -31,7 +31,7 @@ const Expansion = () => {
 		} else {
 			axios({
 				method: "GET",
-				url: "https://mythgard-api.herokuapp.com/api/cards",
+				url: "https://mythgard-api.herokuapp.com/cards",
 				params: { faction: filteredFaction },
 			}).then((response) => {
 				getCards(response);
@@ -51,7 +51,7 @@ const Expansion = () => {
 		for (let i = 0; i < res.data.length; i++) {
 			cardCompArr.push(
 				<Card
-					url={"/images/cards/" + res.data[i].assets[0].gameAbsolutePath}
+					url={res.data[i].assets[0].fullAbsolutePath}
 					name={res.data[i].name}
 					type={res.data[i].type}
 					rarity={res.data[i].rarity}

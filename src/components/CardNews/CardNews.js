@@ -13,10 +13,10 @@ const CardNews = (props) => {
 			style={{ textDecoration: "none" }}
 		>
 			<div class="card-news">
-				{props.background === undefined || props.background === "" ? (
+				{props.thumbnail === undefined || props.thumbnail === "" ? (
 					<Skeleton variant="rectangular" width={350} height={180} />
 				) : (
-					<img src={props.background} alt="" loading="lazy"></img>
+					<img src={props.thumbnail} alt="" loading="lazy"></img>
 				)}
 				<div class="card-news_content">
 					{props.date === undefined ? <Skeleton animation="wave" height={10} width="30%" /> : <span>{props.date}</span>}

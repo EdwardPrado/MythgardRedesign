@@ -26,7 +26,7 @@ const FeaturedNews = () => {
 					title={newsArr.data[i].name}
 					summary={newsArr.data[i].summary}
 					articleId={newsArr.data[i].articleId}
-					background={"/images/news/thumbnail" + newsArr.data[i].background}
+					thumbnail={newsArr.data[i].thumbnail}
 				/>
 			);
 		}

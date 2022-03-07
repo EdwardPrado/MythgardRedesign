@@ -21,15 +21,18 @@ const News = () => {
 		//Fixes issue where user is partially scrolled down the page when they open it
 		window.scrollTo(0, 0);
 
-		let params = new URL(document.location).searchParams;
-		let articleId = params.get("articleId");
+		const params = new Proxy(new URLSearchParams(window.location.search), {
+			get: (searchParams, prop) => searchParams.get(prop),
+		});
 
-		axios.get(`https://mythgard-api.herokuapp.com/api/news/posts/?articleId=${articleId}`).then((response) => {
+		let articleId = params.articleId;
+
+		axios.get(`https://mythgard-api.herokuapp.com/news/posts/?articleId=${articleId}`).then((response) => {
 			setNewsArticle(response.data[0]);
 			setArticleContent(parseArticle(response.data[0].article));
 			setBackground({
-				banner: `/images/news/banner${response.data[0].background}`,
-				thumbnail: `/images/news/thumbnail${response.data[0].background}`,
+				banner: response.data[0].banner,
+				thumbnail: response.data[0].thumbnail,
 			});
 		});
 	}, []);
